@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  minecraftserver:
+    container_name: minecraft_server_scouting
+    build: .
+    ports:
+            - "0.0.0.0:25565:25565"
